@@ -7,13 +7,14 @@ first_name: Weicheng
 middle_name:
 last_name: Du
 contact_note: >
-  Contact information will be added here.
+  <strong>Official email:</strong> <a href="mailto:weichengdu@mail.sdu.edu.cn">weichengdu@mail.sdu.edu.cn</a><br>
+  <strong>Frequently checked email:</strong> <a href="mailto:2733364837@qq.com">2733364837@qq.com</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic homepage for Weicheng Du, focused on biomedical image analysis, efficient deep learning, and AI agent safety.
+  Personal academic homepage of Weicheng Du, a Ph.D. student at Shandong University working on deep reinforcement learning, with interests in visual reinforcement learning, inverse reinforcement learning, and multi-task reinforcement learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: biomedical image analysis, electron microscopy, efficient deep learning, structured sparsity, AI agent safety # add your own keywords or leave empty
+keywords: deep reinforcement learning, visual reinforcement learning, inverse reinforcement learning, multi-task reinforcement learning, Deep RL, Visual RL, Inverse RL, Multi-task RL # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

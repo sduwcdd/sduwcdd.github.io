@@ -2,42 +2,46 @@
 layout: about
 title: about
 permalink: /
-subtitle: Academic homepage. Affiliation and contact details to be added.
+subtitle: <a href="https://github.com/sduwcdd">github.com/sduwcdd</a>
 
 profile:
   align: right
   image:
-  image_circular: false # crops the image to make it circular
-  more_info:
+  image_circular: false
+  more_info: >
+    <p>Ph.D. Student in Artificial Intelligence</p>
+    <p>Time Lab, Artificial Intelligence Research Center</p>
+    <p>School of Software, Shandong University</p>
+    <p>Jinan, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: false
+  limit: 3
 
 latest_posts:
   enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 0 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 0
 ---
 
-I am Weicheng Du. This homepage is being set up as a long-term academic profile for research, publications, projects, experience, and CV materials.
+I am a Ph.D. student in Artificial Intelligence at the School of Software, Shandong University, affiliated with the Artificial Intelligence Research Center and Time Lab. My research focuses on deep reinforcement learning, including visual reinforcement learning, inverse reinforcement learning, and multi-task reinforcement learning.
 
-My research interests include biomedical image analysis, efficient deep learning, and AI agent safety. More detailed biography, affiliation, contact information, and project materials will be added progressively.
+Before beginning my doctoral study, I studied at the School of Software, Shandong University, and was recommended for direct admission to the Ph.D. program. I look forward to continuing my research journey at Shandong University.
 
 ## Research Interests
 
-### Biomedical Image Analysis
+### Deep Reinforcement Learning
 
-Electron microscopy image analysis, neuron segmentation, mitochondria segmentation, volume EM registration, and domain adaptation.
+I am interested in reinforcement learning methods for learning robust and generalizable decision-making policies.
 
-### Efficient Deep Learning
+### Visual Reinforcement Learning
 
-N:M structured sparsity, sparse training, model compression, and efficient segmentation networks.
+My work studies reinforcement learning from visual observations, with a focus on improving policy generalization under visual variations.
 
-### AI Agent Safety
+### Inverse and Multi-task Reinforcement Learning
 
-Coding-agent safety, permission control, the minimum privilege principle, long-horizon agent benchmarks, and dynamic access control.
+I am also interested in inverse reinforcement learning and multi-task reinforcement learning for learning transferable behaviors across tasks.

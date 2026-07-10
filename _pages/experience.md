@@ -2,35 +2,29 @@
 layout: page
 title: experience
 permalink: /experience/
-description: Research and industry experience.
+description: Education.
 nav: true
 nav_order: 4
 toc:
   sidebar: left
 ---
 
-## Research Experience
+## Education
 
-Research experience will be added here.
+### Shandong University
 
-Suggested fields to fill:
+**Ph.D. Student in Artificial Intelligence**
 
-- Role
-- Institution or lab
-- Time period
-- Research topic
-- Main contributions
-- Related papers, code, or project pages
+2026 - Present
 
-## Industry Experience
+- School of Software
+- Artificial Intelligence Research Center, Time Lab
+- Research interests: deep reinforcement learning, visual reinforcement learning, inverse reinforcement learning, and multi-task reinforcement learning
 
-Industry experience will be added here.
+### Shandong University
 
-Suggested fields to fill:
+**B.S. in Artificial Intelligence**
 
-- Role
-- Organization
-- Time period
-- Research topics
-- Main responsibilities
-- Outputs or representative work
+September 2022 - July 2026
+
+- School of Software
