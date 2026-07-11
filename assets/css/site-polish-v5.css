@@ -314,6 +314,9 @@
 .wd-info-item--wide {
   grid-column: span 2;
 }
+.wd-info-item--full {
+  grid-column: 1 / -1;
+}
 .wd-info-item span {
   display: block;
   margin-bottom: 0.38rem;
@@ -338,7 +341,7 @@
 .wd-info-item a:hover {
   text-decoration: underline;
 }
-.wd-email-separator {
+.wd-info-item .wd-email-separator {
   display: inline;
   margin: 0 0.25rem;
   color: var(--wd-muted);

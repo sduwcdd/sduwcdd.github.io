@@ -85,7 +85,7 @@ nav: false
           <span data-zh="研究方向" data-en="Research Interests">研究方向</span>
           <strong data-zh="深度强化学习、视觉强化学习、逆强化学习、多任务强化学习" data-en="Deep RL, Visual RL, Inverse RL, Multi-task RL">深度强化学习、视觉强化学习、逆强化学习、多任务强化学习</strong>
         </div>
-        <div class="wd-info-item wd-info-item--wide">
+        <div class="wd-info-item wd-info-item--full">
           <span data-zh="邮箱" data-en="Email">邮箱</span>
           <strong>weichengdu@mail.sdu.edu.cn <span class="wd-email-separator">/</span> 2733364837@qq.com</strong>
         </div>
