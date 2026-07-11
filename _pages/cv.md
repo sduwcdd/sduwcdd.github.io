@@ -9,10 +9,18 @@ toc:
   sidebar: left
 ---
 
-The CV page is ready. Add the PDF at:
+<link rel="stylesheet" href="{{ '/assets/css/site-polish.css' | relative_url }}">
 
-```text
-assets/pdf/cv.pdf
-```
+<div class="wd-page-shell">
+  <section class="wd-page-hero" aria-labelledby="wd-cv-title">
+    <h1 id="wd-cv-title">Curriculum Vitae</h1>
+    <p>The CV page is ready for a future PDF and a concise web version of education, publications, projects, internships, awards, and skills.</p>
+  </section>
 
-After the PDF is added, this page can link to it directly or switch back to al-folio's `layout: cv`.
+  <section class="wd-cv-panel" aria-labelledby="wd-cv-status-title">
+    <h2 id="wd-cv-status-title">CV PDF</h2>
+    <p>CV content is intentionally left empty for now. When the PDF is ready, place it at:</p>
+    <pre><code>assets/pdf/cv.pdf</code></pre>
+    <p>After the PDF is added, this page can link to it directly or switch back to al-folio's <code>layout: cv</code>.</p>
+  </section>
+</div>
