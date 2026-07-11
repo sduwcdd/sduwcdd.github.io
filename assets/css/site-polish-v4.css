@@ -459,19 +459,6 @@
 .wd-showcase-section {
   margin-top: 2.4rem;
 }
-.wd-scroll-hint {
-  display: inline-flex;
-  align-items: center;
-  min-height: 34px;
-  padding: 0.34rem 0.7rem;
-  border: 1px solid rgba(14, 165, 233, 0.2);
-  border-radius: 999px;
-  color: var(--wd-blue);
-  background: rgba(239, 246, 255, 0.82);
-  font-size: 0.8rem;
-  font-weight: 800;
-  white-space: nowrap;
-}
 .wd-carousel {
   position: relative;
 }
