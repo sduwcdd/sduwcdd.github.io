@@ -7,8 +7,8 @@ first_name: Weicheng
 middle_name:
 last_name: Du
 contact_note: >
-  <strong>Official email:</strong> <a href="mailto:weichengdu@mail.sdu.edu.cn">weichengdu@mail.sdu.edu.cn</a><br>
-  <strong>Frequently checked email:</strong> <a href="mailto:2733364837@qq.com">2733364837@qq.com</a>
+  <strong>Official email:</strong> weichengdu@mail.sdu.edu.cn<br>
+  <strong>Frequently checked email:</strong> 2733364837@qq.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic homepage of Weicheng Du, a Ph.D. student at Shandong University working on deep reinforcement learning, with interests in visual reinforcement learning, inverse reinforcement learning, and multi-task reinforcement learning.
 footer_text: >
