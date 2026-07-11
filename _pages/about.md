@@ -1,31 +1,8 @@
 ---
-layout: about
-title: about
+layout: page
+title:
 permalink: /
-subtitle: <a href="https://github.com/sduwcdd">github.com/sduwcdd</a>
-
-profile:
-  align: right
-  image:
-  image_circular: false
-  more_info: >
-    <p>Ph.D. Student in Artificial Intelligence</p>
-    <p>Time Lab, Artificial Intelligence Research Center</p>
-    <p>School of Software, Shandong University</p>
-    <p>Jinan, China</p>
-
-selected_papers: false
-social: true
-
-announcements:
-  enabled: false
-  scrollable: false
-  limit: 3
-
-latest_posts:
-  enabled: false
-  scrollable: false
-  limit: 0
+description: Personal academic homepage of Weicheng Du.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/site-polish.css' | relative_url }}">
@@ -52,12 +29,72 @@ latest_posts:
       <div class="wd-node wd-node--policy"><strong>Policy Learning</strong><span>Connecting perception with decision-making.</span></div>
       <div class="wd-node wd-node--general"><strong>Generalization</strong><span>Robust behavior in unseen environments.</span></div>
     </div>
+
+  </section>
+
+  <section class="wd-profile-strip" aria-label="Personal information">
+    <div class="wd-profile-item"><span>Identity</span><strong>Ph.D. Student in Artificial Intelligence</strong></div>
+    <div class="wd-profile-item"><span>Affiliation</span><strong>Time Lab, Artificial Intelligence Research Center</strong></div>
+    <div class="wd-profile-item"><span>School</span><strong>School of Software, Shandong University</strong></div>
+    <div class="wd-profile-item"><span>Location</span><strong>Jinan, China</strong></div>
+  </section>
+
+  <section class="wd-section wd-showcase-section" aria-labelledby="wd-showcase-title">
+    <div class="wd-section__head">
+      <div>
+        <h2 id="wd-showcase-title">Research Gallery</h2>
+        <p>A compact scrollable overview of the themes currently shaping this homepage.</p>
+      </div>
+      <span class="wd-scroll-hint">Scroll horizontally</span>
+    </div>
+    <div class="wd-showcase-rail" aria-label="Scrollable research gallery">
+      <article class="wd-showcase-card wd-lift-card">
+        <div class="wd-mini-visual wd-mini-visual--policy" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="wd-card__tag">Visual RL</p>
+        <h3>Learning from Pixels</h3>
+        <p>Visual observations, task-relevant evidence, and robust policy learning under changing environments.</p>
+      </article>
+      <article class="wd-showcase-card wd-lift-card">
+        <div class="wd-mini-visual wd-mini-visual--mask" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="wd-card__tag">TSTM</p>
+        <h3>Temporal Segmentation</h3>
+        <p>Using temporal cues to separate task-relevant regions from distracting visual context.</p>
+      </article>
+      <article class="wd-showcase-card wd-lift-card">
+        <div class="wd-mini-visual wd-mini-visual--inverse" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="wd-card__tag">Inverse RL</p>
+        <h3>Inferring Objectives</h3>
+        <p>Studying how rewards and behavior objectives can be inferred from demonstrations or behavior.</p>
+      </article>
+      <article class="wd-showcase-card wd-lift-card">
+        <div class="wd-mini-visual wd-mini-visual--multi" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="wd-card__tag">Multi-task RL</p>
+        <h3>Transfer Across Tasks</h3>
+        <p>Exploring shared representations and transferable behavior across related learning problems.</p>
+      </article>
+      <article class="wd-showcase-card wd-lift-card">
+        <div class="wd-mini-visual wd-mini-visual--paper" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="wd-card__tag">CVPR 2026</p>
+        <h3>Selected Publication</h3>
+        <p>TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization.</p>
+      </article>
+    </div>
   </section>
 
   <section class="wd-stat-grid" aria-label="Profile highlights">
-    <div class="wd-stat"><p class="wd-stat__label">Affiliation</p><p class="wd-stat__value">Time Lab | Shandong University</p></div>
-    <div class="wd-stat"><p class="wd-stat__label">Research</p><p class="wd-stat__value">Deep RL | Visual RL | Inverse RL | Multi-task RL</p></div>
-    <div class="wd-stat"><p class="wd-stat__label">Featured Work</p><p class="wd-stat__value">TSTM | CVPR 2026</p></div>
+    <div class="wd-stat wd-lift-card"><p class="wd-stat__label">Affiliation</p><p class="wd-stat__value">Time Lab | Shandong University</p></div>
+    <div class="wd-stat wd-lift-card"><p class="wd-stat__label">Research</p><p class="wd-stat__value">Deep RL | Visual RL | Inverse RL | Multi-task RL</p></div>
+    <div class="wd-stat wd-lift-card"><p class="wd-stat__label">Featured Work</p><p class="wd-stat__value">TSTM | CVPR 2026</p></div>
   </section>
 
   <section class="wd-section" aria-labelledby="wd-bio-title">
@@ -81,10 +118,10 @@ latest_posts:
       </div>
     </div>
     <div class="wd-card-grid wd-card-grid--four">
-      <article class="wd-card"><span class="wd-card__tag">01</span><h3>Deep Reinforcement Learning</h3><p>Learning robust and generalizable decision-making policies through reinforcement learning.</p></article>
-      <article class="wd-card"><span class="wd-card__tag">02</span><h3>Visual Reinforcement Learning</h3><p>Training agents from visual observations and improving policy generalization under visual variations.</p></article>
-      <article class="wd-card"><span class="wd-card__tag">03</span><h3>Inverse Reinforcement Learning</h3><p>Studying how reward signals and behavior objectives can be inferred from demonstrations or behavior.</p></article>
-      <article class="wd-card"><span class="wd-card__tag">04</span><h3>Multi-task Reinforcement Learning</h3><p>Exploring transferable behavior and shared representations across related reinforcement learning tasks.</p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">01</span><h3>Deep Reinforcement Learning</h3><p>Learning robust and generalizable decision-making policies through reinforcement learning.</p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">02</span><h3>Visual Reinforcement Learning</h3><p>Training agents from visual observations and improving policy generalization under visual variations.</p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">03</span><h3>Inverse Reinforcement Learning</h3><p>Studying how reward signals and behavior objectives can be inferred from demonstrations or behavior.</p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">04</span><h3>Multi-task Reinforcement Learning</h3><p>Exploring transferable behavior and shared representations across related reinforcement learning tasks.</p></article>
     </div>
   </section>
 
@@ -95,7 +132,7 @@ latest_posts:
         <p>Full publication details are maintained on the Publications page.</p>
       </div>
     </div>
-    <article class="wd-paper">
+    <article class="wd-paper wd-lift-card">
       <span class="wd-paper__meta">CVPR 2026</span>
       <h3>TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization</h3>
       <p>Weicheng Du, Wenjia Meng, Zhengzhe Zhang, Yilong Yin, Xiankai Lu.</p>
@@ -115,9 +152,9 @@ latest_posts:
       </div>
     </div>
     <div class="wd-card-grid">
-      <article class="wd-card"><span class="wd-card__tag">Official</span><h3>Shandong University Email</h3><p><a href="mailto:weichengdu@mail.sdu.edu.cn">weichengdu@mail.sdu.edu.cn</a></p></article>
-      <article class="wd-card"><span class="wd-card__tag">Frequent</span><h3>Email</h3><p><a href="mailto:2733364837@qq.com">2733364837@qq.com</a></p></article>
-      <article class="wd-card"><span class="wd-card__tag">Code</span><h3>GitHub</h3><p><a href="https://github.com/sduwcdd">github.com/sduwcdd</a></p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">Official</span><h3>Shandong University Email</h3><p><a href="mailto:weichengdu@mail.sdu.edu.cn">weichengdu@mail.sdu.edu.cn</a></p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">Frequent</span><h3>Email</h3><p><a href="mailto:2733364837@qq.com">2733364837@qq.com</a></p></article>
+      <article class="wd-card wd-lift-card"><span class="wd-card__tag">Code</span><h3>GitHub</h3><p><a href="https://github.com/sduwcdd">github.com/sduwcdd</a></p></article>
     </div>
   </section>
 </div>
