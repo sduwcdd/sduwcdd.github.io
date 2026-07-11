@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish-v4.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v5.css' | relative_url }}">
 <script defer src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
 
 <div class="wd-page-shell">

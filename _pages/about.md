@@ -6,7 +6,7 @@ description: Weicheng Du 的个人学术主页。
 nav: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish-v4.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v5.css' | relative_url }}">
 <script defer src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
 
 <div class="wd-page-shell">
@@ -23,7 +23,6 @@ nav: false
       </p>
       <div class="wd-actions" aria-label="Primary links">
         <a class="wd-button wd-button--primary" href="{{ '/publications/' | relative_url }}" data-zh="论文成果" data-en="Publications">论文成果</a>
-        <a class="wd-button" href="https://openaccess.thecvf.com/content/CVPR2026/html/Du_TSTM_Temporal_Segmentation_for_Task-relevant_Mask_in_Visual_Reinforcement_Learning_CVPR_2026_paper.html" data-zh="CVPR 2026 论文" data-en="CVPR 2026 Paper">CVPR 2026 论文</a>
         <a class="wd-button" href="{{ '/cv/' | relative_url }}">CV</a>
         <a class="wd-button" href="https://github.com/sduwcdd">GitHub</a>
       </div>
@@ -63,7 +62,7 @@ nav: false
       <div class="wd-profile-heading">
         <p class="wd-kicker" data-zh="个人信息" data-en="Profile">个人信息</p>
         <h2 id="wd-profile-title" data-zh="杜伟成 / Weicheng Du" data-en="Weicheng Du">杜伟成 / Weicheng Du</h2>
-        <p data-zh="山东大学软件学院人工智能方向博士研究生，隶属于人工智能研究中心 Time 实验室。" data-en="Ph.D. student in Artificial Intelligence at the School of Software, Shandong University, affiliated with the Artificial Intelligence Research Center and TIME Lab.">山东大学软件学院人工智能方向博士研究生，隶属于人工智能研究中心 Time 实验室。</p>
+        <p data-zh="山东大学软件学院人工智能方向博士研究生，人工智能研究中心 Time 实验室。" data-en="Ph.D. student, School of Software, Shandong University; TIME Lab.">山东大学软件学院人工智能方向博士研究生，人工智能研究中心 Time 实验室。</p>
       </div>
       <div class="wd-info-grid">
         <div class="wd-info-item">
@@ -88,11 +87,7 @@ nav: false
         </div>
         <div class="wd-info-item wd-info-item--wide">
           <span data-zh="邮箱" data-en="Email">邮箱</span>
-          <strong>weichengdu@mail.sdu.edu.cn<br>2733364837@qq.com</strong>
-        </div>
-        <div class="wd-info-item">
-          <span data-zh="地点" data-en="Location">地点</span>
-          <strong data-zh="中国济南" data-en="Jinan, China">中国济南</strong>
+          <strong>weichengdu@mail.sdu.edu.cn <span class="wd-email-separator">/</span> 2733364837@qq.com</strong>
         </div>
       </div>
     </div>
@@ -124,7 +119,6 @@ nav: false
         <h2 id="wd-showcase-title" data-zh="研究概览" data-en="Research Gallery">研究概览</h2>
         <p data-zh="点击下方切换点浏览当前主页重点展示的研究主题。" data-en="Use the controls below to browse the themes currently shaping this homepage.">点击下方切换点浏览当前主页重点展示的研究主题。</p>
       </div>
-      <span class="wd-scroll-hint" data-zh="点击切换" data-en="Click to switch">点击切换</span>
     </div>
     <div class="wd-carousel" data-wd-carousel>
       <div class="wd-showcase-viewport">
