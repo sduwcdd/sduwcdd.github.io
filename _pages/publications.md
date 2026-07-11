@@ -19,11 +19,11 @@ nav_order: 2
   <section class="wd-coauthor-panel" aria-labelledby="wd-coauthor-title">
     <div class="wd-coauthor-head">
       <div>
-        <h2 id="wd-coauthor-title" data-zh="合作者统计" data-en="Coauthor Statistics">合作者统计</h2>
+        <h2 id="wd-coauthor-title" data-zh="合著者统计" data-en="Coauthor Statistics">合著者统计</h2>
         <p data-zh="基于当前已收录论文统计合著者出现次数。" data-en="Counts are based on the publications currently listed on this page.">基于当前已收录论文统计合著者出现次数。</p>
       </div>
       <div class="wd-coauthor-tabs" aria-label="Coauthor statistics tabs">
-        <span class="is-active" data-zh="合作者" data-en="Coauthors">合作者</span>
+        <span class="is-active" data-zh="合著者" data-en="Coauthors">合著者</span>
         <span data-zh="论文数" data-en="Papers">论文数</span>
       </div>
     </div>
@@ -31,25 +31,25 @@ nav_order: 2
       <div class="wd-coauthor-row">
         <span class="wd-coauthor-avatar" aria-hidden="true">WM</span>
         <strong>Wenjia Meng</strong>
-        <span data-zh="合作论文数" data-en="Coauthored papers">合作论文数</span>
+        <span data-zh="合著论文数" data-en="Coauthored papers">合著论文数</span>
         <b>1</b>
       </div>
       <div class="wd-coauthor-row">
         <span class="wd-coauthor-avatar" aria-hidden="true">ZZ</span>
         <strong>Zhengzhe Zhang</strong>
-        <span data-zh="合作论文数" data-en="Coauthored papers">合作论文数</span>
+        <span data-zh="合著论文数" data-en="Coauthored papers">合著论文数</span>
         <b>1</b>
       </div>
       <div class="wd-coauthor-row">
         <span class="wd-coauthor-avatar" aria-hidden="true">YY</span>
         <strong>Yilong Yin</strong>
-        <span data-zh="合作论文数" data-en="Coauthored papers">合作论文数</span>
+        <span data-zh="合著论文数" data-en="Coauthored papers">合著论文数</span>
         <b>1</b>
       </div>
       <div class="wd-coauthor-row">
         <span class="wd-coauthor-avatar" aria-hidden="true">XL</span>
         <strong>Xiankai Lu</strong>
-        <span data-zh="合作论文数" data-en="Coauthored papers">合作论文数</span>
+        <span data-zh="合著论文数" data-en="Coauthored papers">合著论文数</span>
         <b>1</b>
       </div>
     </div>
