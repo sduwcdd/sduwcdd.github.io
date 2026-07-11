@@ -9,7 +9,7 @@ toc:
   sidebar: left
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v2.css' | relative_url }}">
 
 <div class="wd-page-shell">
   <section class="wd-page-hero" aria-labelledby="wd-experience-title">
@@ -44,5 +44,6 @@ toc:
         <p>September 2022 - July 2026 | School of Software</p>
       </article>
     </div>
+
   </section>
 </div>

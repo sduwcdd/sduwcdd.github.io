@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v2.css' | relative_url }}">
 
 <div class="wd-page-shell">
   <section class="wd-page-hero" aria-labelledby="wd-projects-title">

@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v2.css' | relative_url }}">
 
 <div class="wd-page-shell wd-publication-frame">
   <section class="wd-page-hero" aria-labelledby="wd-publications-title">
@@ -15,11 +15,11 @@ nav_order: 2
     <p>Research papers are listed in reverse chronological order. Author highlighting and publication metadata are managed through BibTeX for easier long-term updates.</p>
   </section>
 
-  {% include bib_search.liquid %}
+{% include bib_search.liquid %}
 
   <div class="publications">
 
-  {% bibliography %}
+{% bibliography %}
 
   </div>
 </div>

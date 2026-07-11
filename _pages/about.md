@@ -5,7 +5,7 @@ permalink: /
 description: Personal academic homepage of Weicheng Du.
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v2.css' | relative_url }}">
 
 <div class="wd-page-shell">
   <section class="wd-hero" aria-labelledby="wd-home-title">
