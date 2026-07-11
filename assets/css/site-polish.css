@@ -11,6 +11,9 @@
 }
 
 .wd-page-shell {
+  width: min(1180px, calc(100vw - 2rem));
+  margin-left: 50%;
+  transform: translateX(-50%);
   color: var(--wd-ink);
   font-family: "Aptos", "Segoe UI", "Helvetica Neue", sans-serif;
 }
