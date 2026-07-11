@@ -6,7 +6,7 @@ description: Weicheng Du 的个人学术主页。
 nav: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/site-polish-v3.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-polish-v4.css' | relative_url }}">
 <script defer src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
 
 <div class="wd-page-shell">
