@@ -13,13 +13,14 @@ description: Curriculum vitae.
 <div class="wd-page-shell">
   <section class="wd-page-hero" aria-labelledby="wd-cv-title">
     <h1 id="wd-cv-title">CV</h1>
-    <p data-zh="CV 页面已预留。后续可补充 PDF 下载入口和网页版本简历信息。" data-en="The CV page is ready for a future PDF and a concise web version of education, publications, projects, internships, awards, and skills.">CV 页面已预留。后续可补充 PDF 下载入口和网页版本简历信息。</p>
+    <p data-zh="这里提供 PDF 版本简历入口，后续也可以继续补充网页版本的教育经历、论文、项目、荣誉和技能。" data-en="This page provides a PDF version of my CV. A concise web version of education, publications, projects, awards, and skills can be added later.">这里提供 PDF 版本简历入口，后续也可以继续补充网页版本的教育经历、论文、项目、荣誉和技能。</p>
   </section>
 
   <section class="wd-cv-panel" aria-labelledby="wd-cv-status-title">
     <h2 id="wd-cv-status-title" data-zh="CV PDF" data-en="CV PDF">CV PDF</h2>
-    <p data-zh="当前 CV 内容暂时留空。PDF 准备好后，请放在以下位置：" data-en="CV content is intentionally left empty for now. When the PDF is ready, place it at:">当前 CV 内容暂时留空。PDF 准备好后，请放在以下位置：</p>
-    <pre><code>assets/pdf/cv.pdf</code></pre>
-    <p data-html-zh="之后该页面可以直接链接到 PDF，或切换回 al-folio 的 <code>layout: cv</code>。" data-html-en="After the PDF is added, this page can link to it directly or switch back to al-folio's <code>layout: cv</code>.">之后该页面可以直接链接到 PDF，或切换回 al-folio 的 <code>layout: cv</code>。</p>
+    <p data-zh="PDF 简历已添加到网站静态资源中，可直接打开查看。" data-en="The PDF CV has been added to the site's static assets and can be opened directly.">PDF 简历已添加到网站静态资源中，可直接打开查看。</p>
+    <div class="wd-chip-row wd-cv-actions">
+      <a class="wd-button wd-button--primary" href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank" rel="noopener" data-zh="查看 PDF 简历" data-en="Open CV PDF">查看 PDF 简历</a>
+    </div>
   </section>
 </div>

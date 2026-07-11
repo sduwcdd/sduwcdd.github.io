@@ -250,40 +250,39 @@
 }
 
 .wd-profile-card {
-  display: grid;
-  grid-template-columns: minmax(190px, 245px) minmax(0, 1fr);
-  gap: clamp(1.2rem, 3vw, 2rem);
-  align-items: stretch;
+  position: relative;
   margin: -0.85rem 0 2.8rem;
-  padding: clamp(1rem, 2vw, 1.35rem);
+  padding: clamp(1.15rem, 2.5vw, 1.7rem);
   border: 1px solid var(--wd-line);
   border-radius: 24px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(240, 253, 250, 0.62));
   box-shadow: 0 20px 58px rgba(15, 23, 42, 0.1);
 }
 .wd-profile-photo {
+  position: absolute;
+  top: clamp(1.1rem, 2.3vw, 1.65rem);
+  right: clamp(1.1rem, 2.3vw, 1.65rem);
+  z-index: 2;
   margin: 0;
-  min-height: 100%;
+  width: clamp(124px, 15vw, 176px);
 }
 .wd-profile-photo img {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 315px;
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
   border: 1px solid rgba(15, 23, 42, 0.1);
-  border-radius: 20px;
+  border-radius: 16px;
   background: #f8fafc;
   box-shadow: 0 16px 38px rgba(15, 23, 42, 0.1);
 }
 .wd-profile-main {
-  display: grid;
-  gap: 1rem;
-  align-content: start;
+  display: block;
 }
 .wd-profile-heading {
-  padding: 0.4rem 0.2rem 0;
+  min-height: clamp(155px, 17vw, 210px);
+  padding: 0.35rem min(220px, 22vw) 0 0.2rem;
 }
 .wd-profile-heading h2 {
   margin: 0;
@@ -523,31 +522,33 @@
   font-weight: 800;
   white-space: nowrap;
 }
+.wd-carousel {
+  position: relative;
+}
+.wd-showcase-viewport {
+  overflow: hidden;
+  padding: 0.2rem 0.2rem 0.55rem;
+}
 .wd-showcase-rail {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(280px, 34%);
+  grid-auto-columns: calc((100% - 2rem) / 3);
   gap: 1rem;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-  padding: 0.2rem 0.1rem 1rem;
-  scrollbar-color: var(--wd-ink) rgba(15, 23, 42, 0.12);
-  scrollbar-width: thin;
+  overflow: visible;
+  padding: 0;
+  transition: transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
 }
 .wd-showcase-rail::-webkit-scrollbar {
-  height: 9px;
+  display: none;
 }
 .wd-showcase-rail::-webkit-scrollbar-track {
-  border-radius: 999px;
-  background: rgba(15, 23, 42, 0.1);
+  display: none;
 }
 .wd-showcase-rail::-webkit-scrollbar-thumb {
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--wd-teal), var(--wd-cyan), var(--wd-amber));
+  display: none;
 }
 .wd-showcase-card {
-  scroll-snap-align: start;
   display: grid;
   grid-template-rows: 170px auto auto auto;
   min-height: 390px;
@@ -569,6 +570,58 @@
   margin: 0;
   color: var(--wd-muted);
   line-height: 1.62;
+}
+.wd-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 0.65rem;
+}
+.wd-carousel-arrow,
+.wd-carousel-dot {
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--wd-ink);
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+.wd-carousel-arrow {
+  display: inline-grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 999px;
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1;
+}
+.wd-carousel-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.wd-carousel-dot {
+  width: 42px;
+  height: 8px;
+  padding: 0;
+  border-radius: 999px;
+  font-size: 0;
+}
+.wd-carousel-arrow:hover,
+.wd-carousel-dot:hover,
+.wd-carousel-dot.is-active {
+  transform: translateY(-2px);
+  border-color: rgba(14, 165, 233, 0.45);
+  background: linear-gradient(90deg, rgba(15, 118, 110, 0.95), rgba(14, 165, 233, 0.88));
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+.wd-carousel-dot.is-active {
+  width: 58px;
 }
 
 .wd-news-preview {
@@ -893,9 +946,6 @@
   .wd-card-grid--four {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .wd-profile-card {
-    grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
-  }
   .wd-info-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -903,7 +953,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .wd-showcase-rail {
-    grid-auto-columns: minmax(280px, 48%);
+    grid-auto-columns: calc((100% - 1rem) / 2);
   }
 }
 @media (max-width: 900px) {
@@ -945,15 +995,23 @@
     top: 77%;
     bottom: auto;
   }
-  .wd-profile-card,
   .wd-news-list {
     grid-template-columns: 1fr;
   }
+  .wd-profile-card {
+    padding: 1rem;
+  }
+  .wd-profile-photo {
+    position: static;
+    width: min(168px, 46vw);
+    margin: 0 0 1rem auto;
+  }
   .wd-profile-photo img {
-    width: min(220px, 70vw);
-    min-height: auto;
-    aspect-ratio: 3 / 4;
-    margin: 0 auto;
+    max-height: none;
+  }
+  .wd-profile-heading {
+    min-height: 0;
+    padding: 0;
   }
   .wd-info-grid {
     grid-template-columns: 1fr;
@@ -968,12 +1026,21 @@
     grid-template-columns: 1fr;
   }
   .wd-showcase-rail {
-    grid-auto-columns: minmax(260px, 86%);
+    grid-auto-columns: 100%;
+  }
+  .wd-carousel-dot {
+    width: 30px;
+  }
+  .wd-carousel-dot.is-active {
+    width: 42px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .wd-button,
+  .wd-showcase-rail,
+  .wd-carousel-arrow,
+  .wd-carousel-dot,
   .wd-lift-card {
     transition: none;
   }
@@ -1032,7 +1099,11 @@ body[data-theme="dark"] .wd-info-item,
 html[data-theme="dark"] .wd-news-item,
 body[data-theme="dark"] .wd-news-item,
 html[data-theme="dark"] .wd-showcase-card,
-body[data-theme="dark"] .wd-showcase-card {
+body[data-theme="dark"] .wd-showcase-card,
+html[data-theme="dark"] .wd-carousel-arrow,
+body[data-theme="dark"] .wd-carousel-arrow,
+html[data-theme="dark"] .wd-carousel-dot,
+body[data-theme="dark"] .wd-carousel-dot {
   background: rgba(15, 23, 42, 0.86);
   color: #e5edf6;
 }

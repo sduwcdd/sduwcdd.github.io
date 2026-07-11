@@ -24,6 +24,7 @@ nav: false
       <div class="wd-actions" aria-label="Primary links">
         <a class="wd-button wd-button--primary" href="{{ '/publications/' | relative_url }}" data-zh="论文成果" data-en="Publications">论文成果</a>
         <a class="wd-button" href="https://openaccess.thecvf.com/content/CVPR2026/html/Du_TSTM_Temporal_Segmentation_for_Task-relevant_Mask_in_Visual_Reinforcement_Learning_CVPR_2026_paper.html" data-zh="CVPR 2026 论文" data-en="CVPR 2026 Paper">CVPR 2026 论文</a>
+        <a class="wd-button" href="{{ '/cv/' | relative_url }}">CV</a>
         <a class="wd-button" href="https://github.com/sduwcdd">GitHub</a>
       </div>
     </div>
@@ -121,51 +122,60 @@ nav: false
     <div class="wd-section__head">
       <div>
         <h2 id="wd-showcase-title" data-zh="研究概览" data-en="Research Gallery">研究概览</h2>
-        <p data-zh="横向浏览当前主页重点展示的研究主题。" data-en="A compact scrollable overview of the themes currently shaping this homepage.">横向浏览当前主页重点展示的研究主题。</p>
+        <p data-zh="点击下方切换点浏览当前主页重点展示的研究主题。" data-en="Use the controls below to browse the themes currently shaping this homepage.">点击下方切换点浏览当前主页重点展示的研究主题。</p>
       </div>
-      <span class="wd-scroll-hint" data-zh="横向滚动" data-en="Scroll horizontally">横向滚动</span>
+      <span class="wd-scroll-hint" data-zh="点击切换" data-en="Click to switch">点击切换</span>
     </div>
-    <div class="wd-showcase-rail" aria-label="Scrollable research gallery">
-      <article class="wd-showcase-card wd-lift-card">
-        <div class="wd-mini-visual wd-mini-visual--policy" aria-hidden="true">
-          <span></span><span></span><span></span>
+    <div class="wd-carousel" data-wd-carousel>
+      <div class="wd-showcase-viewport">
+        <div class="wd-showcase-rail" aria-label="Research gallery">
+          <article class="wd-showcase-card wd-lift-card">
+            <div class="wd-mini-visual wd-mini-visual--policy" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="wd-card__tag">Visual RL</p>
+            <h3 data-zh="从像素中学习" data-en="Learning from Pixels">从像素中学习</h3>
+            <p data-zh="围绕视觉观测、任务相关证据和复杂环境下的稳健策略学习展开。" data-en="Visual observations, task-relevant evidence, and robust policy learning under changing environments.">围绕视觉观测、任务相关证据和复杂环境下的稳健策略学习展开。</p>
+          </article>
+          <article class="wd-showcase-card wd-lift-card">
+            <div class="wd-mini-visual wd-mini-visual--mask" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="wd-card__tag">TSTM</p>
+            <h3 data-zh="时序分割" data-en="Temporal Segmentation">时序分割</h3>
+            <p data-zh="利用时序线索区分任务相关区域与视觉干扰。" data-en="Using temporal cues to separate task-relevant regions from distracting visual context.">利用时序线索区分任务相关区域与视觉干扰。</p>
+          </article>
+          <article class="wd-showcase-card wd-lift-card">
+            <div class="wd-mini-visual wd-mini-visual--inverse" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="wd-card__tag">Inverse RL</p>
+            <h3 data-zh="目标推断" data-en="Inferring Objectives">目标推断</h3>
+            <p data-zh="研究如何从示范或行为中推断奖励信号与行为目标。" data-en="Studying how rewards and behavior objectives can be inferred from demonstrations or behavior.">研究如何从示范或行为中推断奖励信号与行为目标。</p>
+          </article>
+          <article class="wd-showcase-card wd-lift-card">
+            <div class="wd-mini-visual wd-mini-visual--multi" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="wd-card__tag">Multi-task RL</p>
+            <h3 data-zh="跨任务迁移" data-en="Transfer Across Tasks">跨任务迁移</h3>
+            <p data-zh="探索多任务场景中的共享表示与可迁移策略。" data-en="Exploring shared representations and transferable behavior across related learning problems.">探索多任务场景中的共享表示与可迁移策略。</p>
+          </article>
+          <article class="wd-showcase-card wd-lift-card">
+            <div class="wd-mini-visual wd-mini-visual--paper" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="wd-card__tag">CVPR 2026</p>
+            <h3 data-zh="代表论文" data-en="Selected Publication">代表论文</h3>
+            <p data-zh="TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization." data-en="TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization.">TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization.</p>
+          </article>
         </div>
-        <p class="wd-card__tag">Visual RL</p>
-        <h3 data-zh="从像素中学习" data-en="Learning from Pixels">从像素中学习</h3>
-        <p data-zh="围绕视觉观测、任务相关证据和复杂环境下的稳健策略学习展开。" data-en="Visual observations, task-relevant evidence, and robust policy learning under changing environments.">围绕视觉观测、任务相关证据和复杂环境下的稳健策略学习展开。</p>
-      </article>
-      <article class="wd-showcase-card wd-lift-card">
-        <div class="wd-mini-visual wd-mini-visual--mask" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </div>
-        <p class="wd-card__tag">TSTM</p>
-        <h3 data-zh="时序分割" data-en="Temporal Segmentation">时序分割</h3>
-        <p data-zh="利用时序线索区分任务相关区域与视觉干扰。" data-en="Using temporal cues to separate task-relevant regions from distracting visual context.">利用时序线索区分任务相关区域与视觉干扰。</p>
-      </article>
-      <article class="wd-showcase-card wd-lift-card">
-        <div class="wd-mini-visual wd-mini-visual--inverse" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </div>
-        <p class="wd-card__tag">Inverse RL</p>
-        <h3 data-zh="目标推断" data-en="Inferring Objectives">目标推断</h3>
-        <p data-zh="研究如何从示范或行为中推断奖励信号与行为目标。" data-en="Studying how rewards and behavior objectives can be inferred from demonstrations or behavior.">研究如何从示范或行为中推断奖励信号与行为目标。</p>
-      </article>
-      <article class="wd-showcase-card wd-lift-card">
-        <div class="wd-mini-visual wd-mini-visual--multi" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </div>
-        <p class="wd-card__tag">Multi-task RL</p>
-        <h3 data-zh="跨任务迁移" data-en="Transfer Across Tasks">跨任务迁移</h3>
-        <p data-zh="探索多任务场景中的共享表示与可迁移策略。" data-en="Exploring shared representations and transferable behavior across related learning problems.">探索多任务场景中的共享表示与可迁移策略。</p>
-      </article>
-      <article class="wd-showcase-card wd-lift-card">
-        <div class="wd-mini-visual wd-mini-visual--paper" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </div>
-        <p class="wd-card__tag">CVPR 2026</p>
-        <h3 data-zh="代表论文" data-en="Selected Publication">代表论文</h3>
-        <p data-zh="TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization." data-en="TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization.">TSTM: Temporal Segmentation for Task-relevant Mask in Visual Reinforcement Learning Generalization.</p>
-      </article>
+      </div>
+      <div class="wd-carousel-controls" aria-label="Research gallery controls">
+        <button class="wd-carousel-arrow" type="button" data-wd-carousel-prev aria-label="Previous slide">‹</button>
+        <div class="wd-carousel-dots" aria-label="Research gallery slide selection"></div>
+        <button class="wd-carousel-arrow" type="button" data-wd-carousel-next aria-label="Next slide">›</button>
+      </div>
     </div>
   </section>
 

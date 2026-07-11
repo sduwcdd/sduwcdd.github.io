@@ -41,6 +41,9 @@ nav_order: 5
         <h3 data-zh="山东大学" data-en="Shandong University">山东大学</h3>
         <p><strong data-zh="人工智能专业学士" data-en="B.S. in Artificial Intelligence">人工智能专业学士</strong></p>
         <p data-zh="2022 年 9 月 - 2026 年 7 月 | 软件学院" data-en="September 2022 - July 2026 | School of Software">2022 年 9 月 - 2026 年 7 月 | 软件学院</p>
+        <div class="wd-chip-row">
+          <span class="wd-chip" data-zh="2026届山东大学优秀本科毕业生" data-en="Outstanding Undergraduate Graduate, Shandong University Class of 2026">2026届山东大学优秀本科毕业生</span>
+        </div>
       </article>
     </div>
 
